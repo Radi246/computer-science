@@ -1,0 +1,11 @@
+#include<stdio.h>
+main()
+{
+	int num1, num2, soma;
+	printf("Informe o primeiro número: ");
+	scanf("%d", &num1);
+	printf("Informe o segundo número: ");
+	scanf("%d", &num2);
+	soma = num1 + num2;
+	printf("A soma é: %d", soma);
+}
